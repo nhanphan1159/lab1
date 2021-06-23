@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+}
+#lienhe{
+    width: 90%;
+    background-color: white;
+    height: 46px;
+    margin-top: auto;
+}
+#lienhe .ttlh{
+    width: 75%;
+    background-color: white;
+    height: 100%;
+    float: left;
+    border-style: double;
+    border-color: rgb(0, 4, 255);
+}
+
+
+#lienhe li {
+    display: inline-block;
+    
+}
+
+#lienhe li a{
+    line-height: 46px;
+    text-decoration: none;
+    padding: 0 16px;
+}
+#banner{
+    width: 90%;
+    background-color: white;
+    border-style:  ridge;
+    border-color: white;
+}
+    
+
+#banner .ban{
+    width: calc( 99% / 3);
+    height: 135px;
+}
+#menu{
+    width: 90%;
+    background-color: tan;
+    height: 46px;
+    border-style: double;
+    border-color: orangered
+}
+#menu li{
+    display: inline-block;
+}
+#menu li a{
+    line-height: 46px;
+    padding: 0 5px;
+    text-decoration: none;
+}
+#tintuc{
+    height: 600px;
+    width: 90%;
+    background-color: white;
+    margin: auto;
+}
+#tintuc .trai{
+    width: 40%;
+    background-color:white;
+    min-height: 500px;
+    float: left;
+}
+#tintuc .phai{
+    width: 40%;
+    background-color: seagreen;
+    min-height: 500px;
+    float: right;
+}
+#tintuc .tn{
+    width: 100%;
+    padding-top: 30px;
+}
+#tintuc .ads{
+    padding-top: 10px;
+    width: 100%;
+    /* height: calc(100% /3 ); */
+}
+#tintuc .allads{
+    margin-top: 20px;
+}
+nav{
+    flex: 10;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+}
+#tintuc .trai.mota
+{   
+   
+    list-style: none;
+    text-decoration: none;
+    
+}
+#mt{
+    
+    display:block;
+    margin-top: auto;
+}
+#tintuc.trai .mt .en{
+    
+    text-align: right;    
+      
+}
+#mt.li{
+    text-decoration: none;
+
+}
+#tintuc.trai.trump
+{
+    text-decoration:none;
+    list-style: none;
+}
+#tintuc.trai.trang{
+    list-style: none;
+    text-align: left;
+    list-style: none;
+    text-decoration:none;
+}
+#tintuc.trai.mt.goc
+{
+    text-align: left
+}
